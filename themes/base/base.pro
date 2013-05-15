@@ -1,0 +1,19 @@
+load(meegotouch_defines)
+include (../../common.pri)
+TEMPLATE = subdirs
+THEME_NAME = $$system(basename $$PWD)
+
+# Icon files
+# desktop_icon.files = ./icons/icons-Applications-dialer.svg
+# desktop_icon.path = $$M_INSTALL_DATA/pixmaps
+# desktop_icon.CONFIG += no_check_exist
+
+# Theme files
+theme.files = $$system(find ./* -type d)
+theme.files += meegovideo.conf
+theme.path = $$M_THEME_DIR/$$THEME_NAME/meegotouch/$$TARGET/
+theme.CONFIG += no_check_exist
+
+INSTALLS += \
+    # desktop_icon \
+    theme

@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.meego.video
+Exec=/usr/bin/meegovideo -single-video

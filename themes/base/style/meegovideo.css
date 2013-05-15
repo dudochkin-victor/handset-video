@@ -1,0 +1,442 @@
+/*
+ * Copyright (c) 2010, Intel Corporation.
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms and conditions of the GNU Lesser General Public License,
+ * version 2.1, as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ * License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ */
+
+MApplicationPageStyle.Landscape {
+    background-image:;
+    background-color: white;
+}
+
+MApplicationPageStyle.Portrait {
+    background-image:;
+    background-color: white;
+}
+
+
+#NowPlayingPage {
+    background-image:;
+    background-color: black;
+}
+
+
+#ControlPanelOverLay {
+    background-color:#474747;
+    minimum-size: 100% 52px;
+    preferred-size: 100% 52px;
+    maximum-size: 100% 52px;
+
+    margin-left: 0;
+    margin-top:  0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    vertical-align: bottom;
+    horizontal-align: left;
+}
+
+#ControlPanelWidget {
+    background-color:#474747;
+    minimum-size: 100% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% -1;
+
+    vertical-align:center;
+}
+
+#SearchInputOverLay {
+    
+    minimum-size: 100% 52px;
+    preferred-size: 100% 52px;
+    maximum-size: 100% 52px;
+
+    margin-left: 0;
+    margin-top:  0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    vertical-align: bottom;
+    horizontal-align: left;
+}
+
+#VideoControlPanelOverLay {
+    background-color:#474747;
+    minimum-size: 100% 50px;
+    preferred-size: 100% 50px;
+    maximum-size: 100% 50px;
+
+    margin-left: 0;
+    margin-top: 430px;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 0mm;
+    padding-top: 3px;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#VideoControlPanelWidget {
+    background-color:#474747;
+    minimum-size: 100% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% -1;
+}
+
+
+#VideoSeekbarOverLay {
+    background-color:none;
+    minimum-size: 100% 50px;
+    preferred-size: 100% 50px;
+    maximum-size: 100% 50px;
+
+    margin-left: 9px;
+    margin-top: 385px;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 0mm;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#VideoSeekbarWidget {
+    background-color:#aaaaaa;
+    minimum-size: 96% -1;
+    preferred-size: 96% -1;
+    maximum-size: 96% -1;
+}
+
+#SearchResultOverLay {
+    minimum-size: 100% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% -1;
+
+    margin-left: 0;
+    margin-top: 90px;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#SearchResultButtonMovie {
+    background-image:;
+    background-color:#474747;
+    
+    font: "Nokia Sans Wide" 18px;
+    text-color: white;
+    minimum-size: 150px 30px;
+    preferred-size: 150px 30px;
+    maximum-size: 150px 30px;
+}
+
+#SearchResultButtonFilms {
+    background-image:;
+    background-color:#474747;
+
+    font: "Nokia Sans Wide" 18px;
+    text-color: white;   
+    minimum-size: 110px 30px;
+    preferred-size: 110px 30px;
+    maximum-size: 110px 30px;
+}
+
+#SearchResultButtonTV {
+    background-image:;
+    background-color:#474747;
+    
+    font: "Nokia Sans Wide" 18px;
+    text-color: white;
+    minimum-size: 130px 30px;
+    preferred-size: 130px 30px;
+    maximum-size: 130px 30px;
+}
+
+#AlphabetBarOverLay {
+    minimum-size: 100% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% -1;
+
+    margin-left: 0;
+    margin-top: $HEIGHT_TOPBARS;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#AlphabetBar {
+    minimum-size: 100% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% -1;
+
+    background-image: "landscape-crumbbar-bg";
+}
+
+#AlphabetItem.Landscape {
+    minimum-size: 1% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% -1;
+
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    text-margin-left: 0;
+    text-margin-top: 0;
+    text-margin-right: 0;
+    text-margin-bottom: 0;
+
+    background-image:;
+    background-color:;
+    text-color: #d6d6d6;
+    font: "Droid Sans" 25px;
+    vertical-text-align: center;
+    horizontal-text-align: center;
+}
+
+#AlphabetItem.Portrait {
+    minimum-size: 1% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% -1;
+
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    text-margin-left: 0;
+    text-margin-top: 0;
+    text-margin-right: 0;
+    text-margin-bottom: 0;
+
+    background-image:;
+    background-color:;
+    text-color: #d6d6d6;
+    font: "Droid Sans" 18px;
+    vertical-text-align: center;
+    horizontal-text-align: center;
+}
+
+
+#AlphabetItem:pressed {
+    text-color: yellow;
+}
+
+#VideosList {
+    margin-top: 28px;
+    minimum-size: 100% 330px;
+    preferred-size: 100% 330px;
+    maximum-size: 100% 330px;
+}
+
+#VideosItem {
+    background-image: "landscape-listItem-bg";
+
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:0;
+    padding-right:0;
+
+    minimum-size: 430px 100px;
+    preferred-size: 430px 100px;
+    maximum-size: 430px 100px;
+
+    image-object-name: "VideosItemImage";
+    title-object-name: "VideosItemTitle";
+    optional-image-object-name: "OptionalPixmap";
+}
+
+#VideosItemImage {
+
+    margin-left:   0;
+    margin-right:  0;
+    margin-top:    0;
+    margin-bottom: 0;
+}
+
+#OptionalPixmap {
+    minimum-size: 30px 30px;
+    preferred-size: 30px 30px;
+    maximum-size: 30px 30px;
+
+    margin-left: 380px;
+    margin-right:  0;
+    margin-top:    0;
+    margin-bottom: 0;
+}
+
+#VideosItemTitle {
+    color: #667786;
+    font: "Droid Sans" 2.5mm;
+    vertical-text-align: vcenter;
+    horizontal-text-align: left;
+    margin-left: 15px;
+}
+
+#TitleLabelWidget {
+    margin-left : 10px;
+    margin-right : $MARGIN_XLARGE; 
+    margin-top : $MARGIN_XLARGE;
+    margin-bottom : 0;
+}
+
+#ControlPanelPlayButton {
+    background-image:;
+    background-color:#474747;
+
+    minimum-size: 45px 45px;
+    preferred-size: 45px 45px;
+    maximum-size: 45px 45px;
+
+    icon-size: 45px 45px;
+}
+
+#ControlPanelNextButton {
+    background-image:;
+    background-color:#474747;
+    
+    minimum-size: 45px 45px;
+    preferred-size: 45px 45px;
+    maximum-size: 45px 45px;
+    icon-size: 45px 45px;
+}
+
+#ControlPanelPreviousButton {
+    background-image:;
+    background-color:#474747;
+    
+    minimum-size: 45px 45px;
+    preferred-size: 45px 45px;
+    maximum-size: 45px 45px;
+    icon-size: 45px 45px;
+}
+
+#VideoSeekBar {
+    margin-left: 22px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    rail-dot-interval: 12;
+    minimum-size: 90% -1;
+    preferred-size: 90% -1;
+    maximum-size: 90% -1;
+    groove-thickness: 8;
+    background-base-image: "meegotouch-slider-received-background-horizontal" 2 2 2 2;
+    background-elapsed-image: "meegotouch-slider-elapsed-background-horizontal" 2 2 2 2;
+    handle-pixmap: "meegotouch-slider-handle-background-pressed-horizontal" 24 24;
+    handle-pressed-pixmap: "meegotouch-slider-handle-background-pressed-horizontal" 28 28;
+}
+
+
+#DurationLabel {
+    minimum-size: 10% -1;
+    preferred-size: 10% -1;
+    maximum-size: 10% -1;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    font: "Nokia Sans Wide" 18px;
+    color: white;
+}
+
+#PlayingTimeLabel {
+    margin-left: 0px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    font: "Nokia Sans Wide" 18px;
+    color: white;
+    background-color: #eeeeee;
+    preferred-size: 100 85;
+}
+
+#VideoDateLabel {
+    minimum-size: 20% -1;
+    preferred-size: 20% -1;
+    maximum-size: 20% -1;
+    margin-left: 80px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    font: "Nokia Sans Wide" 18px;
+    color: white;
+    preferred-size: 100 85;
+}
+
+#TickerText {
+    minimum-size: 400px -1;
+    preferred-size: 400px -1;
+    maximum-size: 400px -1;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 10;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    font: "Nokia Sans Wide" 18px;
+    color: white;
+}
+
+#ControlPanelInfoLabel {
+    minimum-size: 400px -1;
+    preferred-size: 400px -1;
+    maximum-size: 400px -1;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 10;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    font: "Nokia Sans Wide" 18px;
+    color: white;
+}
+
+

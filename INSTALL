@@ -1,0 +1,32 @@
+The Video Player application requires Qt 4.6.2 or later, the MeeGo
+Touch Framework, libqttracker, and the Qt Mobility API 1.0.
+
+You can get the MeeGo Touch Framework from http://qt.gitorious.org/maemo-6-ui-framework (you need libdui and duitheme).
+
+You can get the Qt Mobility API from http://qt.nokia.com/products/appdev/add-on-products/catalog/4/new-qt-apis/mobility
+
+You can get libqttracker from http://maemo.gitorious.org/maemo-af/libqttracker
+
+Build the Video Player by running qmake and then compiling it, e.g.
+
+  qmake
+  make
+  sudo make install
+
+And then run it as:
+
+  meegovideo
+
+It looks for videos in these directories:
+
+  ~/Videos/Films
+  ~/Videos/My Movies
+  ~/Videos/TV Shows
+
+If you want to generate developer documentation, install the Doxygen
+tool and then run "doxygen" in this directory. Documentation in html
+and latex format will be generated under the doc directory.
+Point your web browser to doc/html/index.html
+
+If you want documentation in PDF format go into the doc/latex
+directory and run make. The manual will be generated as refman.pdf.
